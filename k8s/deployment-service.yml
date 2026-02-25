@@ -10,7 +10,7 @@ metadata:
   name: argocd-app-deployment
   namespace: argocd-ns
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: argocd-app
